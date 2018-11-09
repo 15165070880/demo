@@ -1,0 +1,26 @@
+{
+    "name": "zq/demo",
+    "description": "this is demo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zq",
+            "email": "514680765@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+	"autoload":{
+		"files":["common/function.php"],
+		"psr-4":{
+			"Home\\":"home/"
+		}	
+	}
+}
